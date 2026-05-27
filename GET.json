@@ -1,0 +1,131 @@
+[
+   {
+      "pesel":"90010112345",
+      "firstName":"Jan",
+      "lastName":"Kowalski",
+      "age":35,
+      "sex":"Male",
+      "admissions":[
+         {
+            "id":1,
+            "admissionDate":"2026-05-01T10:00:00",
+            "dischargeDate":"2026-05-05T14:00:00",
+            "ward":{
+               "id":1,
+               "name":"Kardiologia",
+               "description":"Oddział chorób serca i układu krążenia"
+            }
+         }
+      ],
+      "bedAssignments":[
+         {
+            "id":1,
+            "from":"2026-05-01T10:30:00",
+            "to":"2026-05-05T13:00:00",
+            "bed":{
+               "id":1,
+               "bedType":{
+                  "id":1,
+                  "name":"Standard",
+                  "description":"Łóżko standardowe"
+               },
+               "room":{
+                  "id":"A101",
+                  "hasTv":true,
+                  "ward":{
+                     "id":1,
+                     "name":"Kardiologia",
+                     "description":"Oddział chorób serca i układu krążenia"
+                  }
+               }
+            }
+         }
+      ]
+   },
+   {
+      "pesel":"85050567890",
+      "firstName":"Anna",
+      "lastName":"Nowak",
+      "age":40,
+      "sex":"Female",
+      "admissions":[
+         {
+            "id":2,
+            "admissionDate":"2026-05-03T09:30:00",
+            "dischargeDate":null,
+            "ward":{
+               "id":2,
+               "name":"Chirurgia",
+               "description":"Oddział chirurgii ogólnej"
+            }
+         }
+      ],
+      "bedAssignments":[
+         {
+            "id":2,
+            "from":"2026-05-03T10:00:00",
+            "to":null,
+            "bed":{
+               "id":2,
+               "bedType":{
+                  "id":2,
+                  "name":"Intensywna terapia",
+                  "description":"Łóżko OIOM"
+               },
+               "room":{
+                  "id":"B201",
+                  "hasTv":true,
+                  "ward":{
+                     "id":2,
+                     "name":"Chirurgia",
+                     "description":"Oddział chirurgii ogólnej"
+                  }
+               }
+            }
+         }
+      ]
+   },
+   {
+      "pesel":"72031245678",
+      "firstName":"Piotr",
+      "lastName":"Wiśniewski",
+      "age":53,
+      "sex":"Male",
+      "admissions":[
+         {
+            "id":3,
+            "admissionDate":"2026-05-06T12:15:00",
+            "dischargeDate":"2026-05-10T11:00:00",
+            "ward":{
+               "id":3,
+               "name":"Ortopedia",
+               "description":"Oddział leczenia urazów i schorzeń kości"
+            }
+         }
+      ],
+      "bedAssignments":[
+         {
+            "id":3,
+            "from":"2026-05-06T12:30:00",
+            "to":"2026-05-10T10:30:00",
+            "bed":{
+               "id":3,
+               "bedType":{
+                  "id":3,
+                  "name":"Rehabilitacyjne",
+                  "description":"Łóżko rehabilitacyjne"
+               },
+               "room":{
+                  "id":"C301",
+                  "hasTv":false,
+                  "ward":{
+                     "id":3,
+                     "name":"Ortopedia",
+                     "description":"Oddział leczenia urazów i schorzeń kości"
+                  }
+               }
+            }
+         }
+      ]
+   }
+]
